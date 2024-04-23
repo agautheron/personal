@@ -1,0 +1,7 @@
+__pycache__/
+build/
+.DS_Store
+.venv
+.obsidian/
+perso_venv
+.idea
