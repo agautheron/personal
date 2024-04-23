@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <title>Corentin Smith</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/codehilite.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta description="Corentin Smith" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="name">
+          <h1>Corentin Smith</h1>
+        </div>
+        <ul>
+          <li><a href="/">About</a></li>
+          <li><a href="/links">Links</a></li>
+          <li><a href="/bookshelf">Bookshelf</a></li>
+          <li><a href="/projects/">Projects</a></li>
+        </ul>
+      </div>
+      <div class="page"><h1>Nightbox</h1>
+<p><img alt="Nightbox finished" src="/img/projects/nightbox/17.jpeg" /></p>
+<h2>Goal</h2>
+<p>In this project I wanted to replace my daughter's night ligt / alarm clock with a nicer looking one that didn't lose time every time it was unplugged and would not empty 4 AA batteries every week.</p>
+<p>A simple, easy project to get back to electronics!</p>
+<h3>Bill of materials</h3>
+<ul>
+<li>A Raspberry Pi Pico</li>
+<li>2 LEDs + resistors</li>
+<li>An DS3231 RTC clock module</li>
+<li>A plywood enclosure</li>
+</ul>
+<h2>Electronics</h2>
+<p>The Pico does not have an internal battery to keep the clock alive. Given that one of the objectives of the project was to have a kid-proof object that I wouldn't have to setup again and again, I added a real-time clock module which includes a battery.</p>
+<p>This is the CircuitPython code to turn the LEDs on and off and read the clock:</p>
+<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">board</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">digitalio</span>
+<span class="kn">import</span> <span class="nn">adafruit_ds3231</span>
+<span class="kn">from</span> <span class="nn">busio</span> <span class="kn">import</span> <span class="n">I2C</span>
+
+<span class="c1"># Pinout</span>
+<span class="n">led_night</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">DigitalInOut</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">GP28</span><span class="p">)</span>
+<span class="n">led_night</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">Direction</span><span class="o">.</span><span class="n">OUTPUT</span>
+
+<span class="n">led_day</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">DigitalInOut</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">GP16</span><span class="p">)</span>
+<span class="n">led_day</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">Direction</span><span class="o">.</span><span class="n">OUTPUT</span>
+
+<span class="n">clock_scl</span> <span class="o">=</span> <span class="n">board</span><span class="o">.</span><span class="n">GP3</span>
+<span class="n">clock_sda</span> <span class="o">=</span> <span class="n">board</span><span class="o">.</span><span class="n">GP2</span>
+
+<span class="c1"># Clock setup</span>
+<span class="n">i2c</span> <span class="o">=</span> <span class="n">I2C</span><span class="p">(</span><span class="n">clock_scl</span><span class="p">,</span> <span class="n">clock_sda</span><span class="p">)</span>
+<span class="n">rtc</span> <span class="o">=</span> <span class="n">adafruit_ds3231</span><span class="o">.</span><span class="n">DS3231</span><span class="p">(</span><span class="n">i2c</span><span class="p">)</span>
+
+<span class="n">led_night</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">led_day</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="c1"># Main loop</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="n">led_night</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">led_night</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">led_day</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">led_day</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="n">rtc</span><span class="o">.</span><span class="n">datetime</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">tm_hour</span><span class="p">,</span> <span class="n">t</span><span class="o">.</span><span class="n">tm_min</span><span class="p">,</span> <span class="n">t</span><span class="o">.</span><span class="n">tm_sec</span><span class="p">)</span>
+</code></pre></div>
+
+<p>The full code is left as an exercise to the reader because the only copy I have is on the Pico itself...</p>
+<p>Moving from a breadboard to a small circuit.</p>
+<p><img alt="2" src="/img/projects/nightbox/2.jpeg" />
+<img alt="3" src="/img/projects/nightbox/3.jpeg" />
+<img alt="4" src="/img/projects/nightbox/4.jpeg" /></p>
+<h2>Building the enclosure</h2>
+<p>I used Figma and OnShape to design the enclosure. Figma is good to quickly visualize some ideas because I'm used to it, and I can create many copies of a 2d design and tweak it. OnShape is good to have a parametrized design that I can tweak once I have the basic shape in mind. You can find the CAD file <a href="https://cad.onshape.com/documents/6d98a0d69ff16e42b4354bfc/w/2f44c313c901c2e7e5c713f7/e/bc93980d315204d1ce1d20a7?renderMode=0&amp;uiState=64d1432c6aeb5233b9a1c995">here</a>.</p>
+<p><img alt="OnShape screenshot" src="/img/projects/nightbox/onshape.png" /></p>
+<p>Who needs a CNC? A bandsaw and some double-sided tape is enough!</p>
+<p><img alt="1" src="/img/projects/nightbox/1.jpeg" />
+<img alt="5" src="/img/projects/nightbox/6.jpeg" />
+<img alt="9" src="/img/projects/nightbox/9.jpeg" />
+<img alt="5" src="/img/projects/nightbox/5.jpeg" />
+<img alt="11" src="/img/projects/nightbox/11.jpeg" /></p>
+<h2>Windows</h2>
+<p>I had the idea to use shrink plastic ("crazy plastic" in french!) to get translucent backlit images.</p>
+<p>First some sketches...</p>
+<p><img alt="Sketches" src="/img/projects/nightbox/12.jpeg" /></p>
+<p>Then a pencil drawing</p>
+<p><img alt="Drawings" src="/img/projects/nightbox/13.jpeg" /></p>
+<p>Then watching it warp in the oven and praying for the size ratio to be consistent over the whole sheet!</p>
+<p><img alt="In the oven" src="/img/projects/nightbox/14.jpeg" /></p>
+<p>Small test with the circuit and the drawings... it works! But I hadn't anticipated the spill through the wood itself. Fixed with a bit of black tape inside.</p>
+<p><img alt="Backlight test" src="/img/projects/nightbox/15.jpeg" /></p>
+<h2>Integration</h2>
+<p>At this point it's just a matter of making everything fit in the box.</p>
+<p><img alt="Test fit" src="/img/projects/nightbox/16.jpeg" /></p>
+<p>I added some foam to diffuse the LED light better. It's quite close to the drawing itself so it was too focused in the center.</p>
+<p><img alt="Final" src="/img/projects/nightbox/20.jpeg" /></p>
+<p>It works! It was a good project to start using the Pi Pico. I found it very satisfying to work at the intersection of design, programming, electronics and woodworking. Now I'm excited for my next project! And I can sleep a little longer every morning...</p></div>
+    </div>
+  </body>
+</html>
