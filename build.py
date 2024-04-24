@@ -12,11 +12,10 @@ PAGES_DIR = os.path.join(SOURCE_DIR, "pages")
 STATIC_DIRS = ["css", "img"]
 
 
-def load_layout(dev_mode=False):
+def load_layout(rootPath,dev_mode=False):
     with open(os.path.join(SOURCE_DIR, "index.html"), "r") as f:
         layout = f.read()
-
-    return layout
+    return layout.replace('"/','"'+rootPath+'/')
 
 
 def build_website(layout):
@@ -85,6 +84,7 @@ if __name__ == "__main__":
         description="Build and serve a static website with live reloading."
     )
     parser.add_argument("--dev", action="store_true", help="Enable development mode.")
+    parser.add_argument("--root", action="store", help="Change default root path.", default="")
     parser.add_argument(
         "--serve", action="store_true", help="Serve the website after building."
     )
@@ -96,8 +96,8 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
-
-    layout = load_layout(args.dev)
+    print(args)
+    layout = load_layout(args.root,args.dev)
     build_website(layout)
 
     if args.serve:

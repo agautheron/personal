@@ -37,7 +37,7 @@ jobs:
         run: python3 -m pip install -r requirements.txt
 
       - name: Build Site
-        run: python build.py
+        run: python build.py  --root '/personal'
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
