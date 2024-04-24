@@ -12,13 +12,13 @@ PAGES_DIR = os.path.join(SOURCE_DIR, "pages")
 STATIC_DIRS = ["css", "img"]
 
 
-def load_layout(rootPath,dev_mode=False):
+def load_layout(dev_mode=False):
     with open(os.path.join(SOURCE_DIR, "index.html"), "r") as f:
         layout = f.read()
-    return layout.replace('"/','"'+rootPath+'/')
+    return layout
 
 
-def build_website(layout):
+def build_website(layout, rootPath):
     shutil.rmtree(BUILD_DIR, ignore_errors=True)
 
     # copy static files
@@ -40,7 +40,7 @@ def build_website(layout):
             with open(os.path.join(root, file), encoding="utf8") as f:
                 md = f.read()
             html = markdown.markdown(md, extensions=["fenced_code", "codehilite"])
-            full_page = layout.format(page=html)
+            full_page = layout.format(page=html).replace('"/','"'+rootPath+'/')
             html_path = os.path.join(
                 BUILD_DIR,
                 root.replace(PAGES_DIR, "").lstrip(os.sep),
@@ -97,8 +97,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     print(args)
-    layout = load_layout(args.root,args.dev)
-    build_website(layout)
+    layout = load_layout(args.dev)
+    build_website(layout, args.root)
 
     if args.serve:
         serve_website(args.port)
