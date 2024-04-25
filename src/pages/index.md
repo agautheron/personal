@@ -1,10 +1,7 @@
-## Hi! I'm a co-founder and CTO at [Dashdoc](https://www.dashdoc.com/) building better software for the transportation industry.
+## Hi! I'm an assistant Professor at [CPE Lyon](https://www.cpe.fr)/[CREATIS](https://creatis.insa-lyon.fr).
 
-Before this I co-founded [Truckfly](https://www.truckfly.com/) (acquired by Michelin in 2018).
+Before this I studied at [Institut d'Optique Graduate School](https://www.institutoptique.fr/) and interned at [Essilor](https://www.essilor.com/fr-fr/) in Creteil and [MPBMT](https://mpbmt.meduniwien.ac.at/en/) in Vienna. 
 
-Earlier I studied at [École Centrale Paris](https://www.centralesupelec.fr/) and interned at [FreshPlanet](http://www.freshplanet.com) in NYC and [Smart Flows](http://www.smart-flows.com) in Paris. 
+I love scouting, making projects, woodworking and programming.
 
-
-I love music, woodworking, graphic design, and programming.
-
-You can learn more about me on [Github](http://github.com/cosmith) or [LinkedIn](http://fr.linkedin.com/in/corentinsmith/).
+You can learn more about me on [LinkedIn](http://fr.linkedin.com/in/arthurgautheron/),[Github](http://github.com/agautheron) or [my professional webpage](https://agautheron.github.io/).
