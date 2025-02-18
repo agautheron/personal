@@ -1,9 +1,12 @@
 # Projects
 
-## [Table](./table)
+## [Passbolt on Ubuntu 24.04](./passbolt_Ubuntu24.04_Apache)
+<!---
+[//]: <> ## [Table](./table)
 
-[![Table](/img/projects/table/onshape.png)](./table)
+[//]: <> [![Table](/img/projects/table/onshape.png)](./table)
 
-## [Nightbox](./nightbox)
+[//]: <> ## [Nightbox](./nightbox)
 
-[![Nightbox](/img/projects/nightbox/17.jpeg)](./nightbox)
+[//]: <> [![Nightbox](/img/projects/nightbox/17.jpeg)](./nightbox)
+-->
