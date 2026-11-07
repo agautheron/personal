@@ -4,6 +4,6 @@ Before this I defended my PhD thesis in [Universite Claude Bernard Lyon 1](https
 
 I'm the father of three children. I love scouting, making projects, woodworking and programming.
 
-I care deeply about digital freedom and data sovereignty. This is what drives me to self-host my own cloud services, such as [Nextcloud](https://nextcloud.com/) for file storage, [Passbolt](https://www.passbolt.com/) for password management (see my [installation guide](./projects/passbolt_Ubuntu24.04_Apache)) and [BookStack](https://www.bookstackapp.com/) for documentation. My curiosity for computing and embedded systems also led me to set up an LDAP server and a VPN at home.
+My curiosity for information systems led me to build my own home lab (see [projects](./projects/)).
 
 You can learn more about me on [LinkedIn](http://fr.linkedin.com/in/arthurgautheron/),[Github](http://github.com/agautheron) or [my professional webpage](https://agautheron.github.io/).
