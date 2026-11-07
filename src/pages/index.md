@@ -4,6 +4,6 @@ Before this I defended my PhD thesis in [Universite Claude Bernard Lyon 1](https
 
 I'm the father of three children. I love scouting, making projects, woodworking and programming.
 
-My curiosity for information systems led me to build my own home lab (see [projects](./projects/)).
+My curiosity for information systems, in particular containerisation with Docker and service monitoring, led me to build my own home lab (see [projects](./projects/)).
 
 You can learn more about me on [LinkedIn](http://fr.linkedin.com/in/arthurgautheron/),[Github](http://github.com/agautheron) or [my professional webpage](https://agautheron.github.io/).
