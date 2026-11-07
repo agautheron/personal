@@ -9,6 +9,8 @@ Because I care about digital freedom and data sovereignty, I self-host my own se
 - **[BookStack](https://www.bookstackapp.com/)**: wiki for documentation.
 - **LDAP server**: centralised user accounts and authentication for the home services.
 - **VPN**: secure remote access to the home network.
+- **Docker**: services are containerised, which makes them easy to deploy, update and back up.
+- **Monitoring**: I monitor the services to check their availability and resource usage.
 
 ## [Passbolt on Ubuntu 24.04](./passbolt_Ubuntu24.04_Apache)
 <!---
