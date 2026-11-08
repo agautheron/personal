@@ -100,3 +100,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* sections: indent the content below each h2 (the homepage headline h2 is excluded) */
+.page > h2:not(:first-child) ~ :not(h2) {
+  margin-left: 20px;
+}
