@@ -46,6 +46,11 @@ Books that I read and liked!
 - [Poor economics](https://www.amazon.com/dp/1610390938), Abhijit V. Banerjee and Esther Duflo
 
 
+## Society & Activism
+
+- Résister, Salomé Saqué
+- Militer à tout prix
+
 ## Fiction
 
 - [The Poppy War](https://www.amazon.com/dp/0062662589), R.F. Kuang
