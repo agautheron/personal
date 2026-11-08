@@ -59,3 +59,12 @@ Books that I read and liked!
 - [Seveneves](https://www.amazon.com/dp/0062334514), Neal Stephenson
 - [Barbarian Days: A Surfing Life](https://www.amazon.com/dp/0143109391), William Finnegan
 - ...and way to many to list here
+
+## Comics (BD)
+
+- Amour minuscule, Teresa Radice and Stefano Turconi
+- Plouhéran, Isabel del Real
+- Un océan d'amour, Wilfrid Lupano and Grégory Panaccione
+- Ailefroide : Altitude 3954, Jean-Marc Rochette and Olivier Bocquet
+- Le Loup, Jean-Marc Rochette
+- La Dernière Reine, Jean-Marc Rochette

@@ -3,6 +3,18 @@
 I spend too much time reading articles. So I figured that I should at least try to share some that I found useful. Here are some of the ones I find myself coming back to (in no particular order).
 <!-- from:@Corentin Smith has:link -figma -github -linear -metabaseapp -notion -datadoghq -google -dashdoc -hubspot -spotify -zoom -->
 
+## Low-tech & upcycling
+
+I like everything around low-tech and upcycling: repairing, reusing and building simple, sustainable solutions.
+
+### [Low-tech Lab](https://lowtechlab.org/)
+
+A collaborative project that explores, documents and shares open-source low-tech solutions.
+
+### [L'Obsolèterie](https://www.facebook.com/lobsoleterie/)
+
+Restores and rescues furniture and decorative objects considered obsolete.
+
 ## Tech
 
 ### [Django for Startup Founders: A better software architecture for SaaS startups and consumer apps](https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html)
