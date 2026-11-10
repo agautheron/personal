@@ -34,8 +34,10 @@ Restores and rescues furniture and decorative objects considered obsolete.
 
 I followed several wine introduction courses with On Veille au Grain (Romain Cipolla): « S'y connaître en vin », « De la vigne au verre » and « L'Afrique et l'Océanie ». They gave me the keys to taste, understand and choose wines from all over the world.
 
-Three of the best bottles in my cellar:
+Five of the best bottles in my cellar:
 
 - Château Sociando-Mallet 1995, Haut-Médoc (Bordeaux), magnum
 - Domaine Rapet Père et Fils, Pernand-Vergelesses 1er Cru « Île des Vergelesses » 1995 (Bourgogne), magnum
 - Maison Chandesais, « Clos Roussots » 1er Cru 2010 (Bourgogne)
+- Domaine Des Frères, Chinon « Les Chaîneaux » 2022, white (Vallée de la Loire)
+- Ravinelle Frères, Pic-Saint-Loup « Héritage du Pic Saint Loup » 2020 (Languedoc), magnum
