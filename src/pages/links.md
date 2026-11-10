@@ -29,3 +29,13 @@ A collaborative project that explores, documents and shares open-source low-tech
 ### [L'Obsolèterie](https://www.facebook.com/lobsoleterie/)
 
 Restores and rescues furniture and decorative objects considered obsolete.
+
+## Oenology
+
+Five of the best bottles in my cellar:
+
+- Château Sociando-Mallet 1995, Haut-Médoc (Bordeaux), magnum
+- Domaine Rapet Père et Fils, Pernand-Vergelesses 1er Cru « Île des Vergelesses » 1995 (Bourgogne), magnum
+- Maison Chandesais, « Clos Roussots » 1er Cru 2010 (Bourgogne)
+- E. Guigal, Saint-Joseph 2016 (Vallée du Rhône)
+- Duc de Sauternes 2008, Sauternes (Bordeaux)
