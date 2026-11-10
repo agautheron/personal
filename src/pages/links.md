@@ -32,6 +32,8 @@ Restores and rescues furniture and decorative objects considered obsolete.
 
 ## Oenology
 
+I followed several wine introduction courses with On Veille au Grain (Romain Cipolla): « S'y connaître en vin », « De la vigne au verre » and « L'Afrique et l'Océanie ». They gave me the keys to taste, understand and choose wines from all over the world.
+
 Five of the best bottles in my cellar:
 
 - Château Sociando-Mallet 1995, Haut-Médoc (Bordeaux), magnum
