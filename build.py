@@ -1,4 +1,5 @@
 import argparse
+import hashlib
 import http.server
 import os
 import shutil
@@ -27,6 +28,12 @@ def build_website(layout, rootPath):
             os.path.join(SOURCE_DIR, static_dir), os.path.join(BUILD_DIR, static_dir)
         )
 
+    # cache busting: add a content hash to stylesheet URLs so browsers fetch the new CSS after a deploy
+    for css in ["style.css", "codehilite.css"]:
+        with open(os.path.join(SOURCE_DIR, "css", css), "rb") as f:
+            digest = hashlib.sha1(f.read()).hexdigest()[:8]
+        layout = layout.replace(f'/css/{css}"', f'/css/{css}?v={digest}"')
+
     for root, dirs, files in os.walk(PAGES_DIR):
         # create subdirectories in build folder
         for subdir in dirs:
@@ -53,13 +60,14 @@ def build_website(layout, rootPath):
 class RewriteUrlsHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         # Rewrite the URL for .html files.
-        if self.path.endswith("/"):
-            self.path += "index.html"
+        path = self.path.split("?", 1)[0]
+        if path.endswith("/"):
+            self.path = path + "index.html"
         elif not any(
-            self.path.endswith(x)
-            for x in [".html", ".js", ".css", ".png", ".jpg", ".jpeg", ".gif"]
+            path.endswith(x)
+            for x in [".html", ".js", ".css", ".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"]
         ):
-            self.path += ".html"
+            self.path = path + ".html"
         return http.server.SimpleHTTPRequestHandler.do_GET(self)
 
 
