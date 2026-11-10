@@ -165,9 +165,10 @@ img {
   align-items: center;
   column-gap: 10px;
 }
+.navbar .theme-item {
+  vertical-align: middle;
+}
 .theme-toggle {
-  margin-left: auto;
-  margin-right: 10px;
   display: inline-flex;
   align-items: center;
   gap: 6px;
