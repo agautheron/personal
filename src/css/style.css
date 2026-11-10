@@ -168,6 +168,32 @@ img {
 .navbar .theme-item {
   vertical-align: middle;
 }
+/* phone: links and toggle stay on one line */
+@media (max-width: 640px) {
+  .navbar ul {
+    white-space: nowrap;
+  }
+  .navbar li {
+    padding-right: 8px;
+  }
+}
+@media (max-width: 359px) {
+  .theme-toggle .theme-icon {
+    display: none;
+  }
+}
+/* computer: toggle pushed to the right of the navbar */
+@media (min-width: 641px) {
+  .navbar ul {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+  }
+  .navbar .theme-item {
+    margin-left: auto;
+  }
+}
 .theme-toggle {
   display: inline-flex;
   align-items: center;
