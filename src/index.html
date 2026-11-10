@@ -58,7 +58,8 @@
           try {{ localStorage.setItem("theme", t); }} catch (e) {{}}
           sync();
         }});
-        media.addEventListener("change", sync);
+        if (media.addEventListener) media.addEventListener("change", sync);
+        else if (media.addListener) media.addListener(sync);
         sync();
       }})();
     </script>

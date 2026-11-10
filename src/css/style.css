@@ -1,5 +1,6 @@
 /* theme tokens: light by default, dark from the system setting or the toggle */
 :root {
+  color-scheme: light;
   --bg: #fafafa;
   --fg: #333;
   --fg-strong: #000;
@@ -16,6 +17,7 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --bg: #17171a;
     --fg: #d8d8dc;
     --fg-strong: #fff;
@@ -32,6 +34,7 @@
   }
 }
 :root[data-theme="dark"] {
+  color-scheme: dark;
   --bg: #17171a;
   --fg: #d8d8dc;
   --fg-strong: #fff;
@@ -174,6 +177,8 @@ img {
   color: var(--muted);
   font: inherit;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 .theme-toggle .track {
   position: relative;
