@@ -263,3 +263,14 @@ img {
 .codehilite {
   color: #333;
 }
+
+/* bullets on content lists (the navbar list stays without bullets) */
+.page ul {
+  padding-inline-start: 1.2em;
+}
+.page ul li {
+  list-style-type: disc;
+}
+.page ul li::marker {
+  color: var(--muted);
+}
