@@ -2,7 +2,7 @@
   background-color: #ffffcc;
 }
 .codehilite {
-  background: #ffffff;
+  background: var(--code-bg, #ffffff);
   padding: 1rem;
 }
 .codehilite pre {

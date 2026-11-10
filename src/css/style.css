@@ -1,11 +1,61 @@
+/* theme tokens: light by default, dark from the system setting or the toggle */
+:root {
+  --bg: #fafafa;
+  --fg: #333;
+  --fg-strong: #000;
+  --muted: #777;
+  --border: #ccc;
+  --quote-border: lightgrey;
+  --quote-bg: hsl(228.77deg 35.72% 87.77% / 36%);
+  --selection-bg: #fffb00;
+  --selection-fg: #071e67;
+  --code-bg: #ffffff;
+  --map-land: #ececec;
+  --map-dot: #9a9a9a;
+  --accent: #8e1b3a;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17171a;
+    --fg: #d8d8dc;
+    --fg-strong: #fff;
+    --muted: #9a9aa2;
+    --border: #55555c;
+    --quote-border: #55555c;
+    --quote-bg: hsl(228deg 20% 30% / 35%);
+    --selection-bg: #6b6600;
+    --selection-fg: #fff;
+    --code-bg: #f4f4f4;
+    --map-land: #2a2a30;
+    --map-dot: #77777f;
+    --accent: #e0708d;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17171a;
+  --fg: #d8d8dc;
+  --fg-strong: #fff;
+  --muted: #9a9aa2;
+  --border: #55555c;
+  --quote-border: #55555c;
+  --quote-bg: hsl(228deg 20% 30% / 35%);
+  --selection-bg: #6b6600;
+  --selection-fg: #fff;
+  --code-bg: #f4f4f4;
+  --map-land: #2a2a30;
+  --map-dot: #77777f;
+  --accent: #e0708d;
+}
+
 /* base */
 html {
   font-size: 14px;
-  background-color: #fafafa;
+  background-color: var(--bg);
 }
 
 body {
-  color: #333;
+  color: var(--fg);
+  background-color: var(--bg);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.3rem;
   margin: 0;
@@ -13,8 +63,8 @@ body {
 }
 
 ::selection {
-  background: #fffb00;
-  color: #071e67;
+  background: var(--selection-bg);
+  color: var(--selection-fg);
 }
 
 /* typography */
@@ -39,10 +89,10 @@ p {
 a:not(:has(> img)) {
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px dotted #ccc;
+  border-bottom: 1px dotted var(--border);
 }
 a:hover {
-  color: #000;
+  color: var(--fg-strong);
 }
 
 /* lists */
@@ -91,8 +141,8 @@ li {
 
 blockquote {
   margin-left: 0;
-  border-left: 6px solid lightgrey;
-  background: hsl(228.77deg 35.72% 87.77% / 36%);
+  border-left: 6px solid var(--quote-border);
+  background: var(--quote-bg);
   padding: 0.1rem 1rem 0.1rem 1rem;
 }
 
@@ -103,4 +153,113 @@ img {
 /* sections: indent the content below each h2 (the homepage headline h2 is excluded) */
 .page > h2:not(:first-child) ~ :not(h2) {
   margin-left: 20px;
+}
+
+/* theme toggle */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 10px;
+}
+.theme-toggle {
+  margin-left: auto;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+}
+.theme-toggle .track {
+  position: relative;
+  width: 34px;
+  height: 18px;
+  border-radius: 9px;
+  background: var(--border);
+  transition: background 0.2s;
+}
+.theme-toggle .thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg);
+  transition: transform 0.2s;
+}
+.theme-toggle[aria-checked="true"] .track {
+  background: var(--accent);
+}
+.theme-toggle[aria-checked="true"] .thumb {
+  transform: translateX(16px);
+}
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* wine: map beside the list, above it on small screens */
+.wine {
+  display: grid;
+  grid-template-columns: 1fr minmax(220px, 320px);
+  grid-template-areas: "list map";
+  gap: 20px;
+  align-items: start;
+}
+.wine-list {
+  grid-area: list;
+}
+.wine-map-figure {
+  grid-area: map;
+  margin: 0;
+}
+.wine-map-figure figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.wine-map {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.wine-map .land {
+  fill: var(--map-land);
+  stroke: var(--border);
+  stroke-width: 0.8;
+}
+.wine-map circle {
+  fill: var(--map-dot);
+}
+.wine-map text {
+  font-size: 10px;
+  fill: var(--muted);
+}
+.wine-map .mine circle {
+  fill: var(--accent);
+}
+.wine-map .mine text {
+  fill: var(--fg);
+  font-weight: bold;
+}
+@media (max-width: 640px) {
+  .wine {
+    grid-template-columns: 1fr;
+    grid-template-areas: "map" "list";
+  }
+  .wine-map-figure {
+    max-width: 360px;
+  }
+}
+
+/* code blocks keep a light background in both themes */
+.codehilite {
+  color: #333;
 }

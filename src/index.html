@@ -9,6 +9,15 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta description="Arthur Gautheron" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (function () {{
+        try {{
+          var t = localStorage.getItem("theme");
+          if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+        }} catch (e) {{}}
+      }})();
+    </script>
   </head>
 
   <body>
@@ -23,8 +32,35 @@
           <li><a href="/bookshelf">Bookshelf</a></li>
           <li><a href="/projects/">Projects</a></li>
         </ul>
+        <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark mode" title="Toggle dark mode">
+          <span class="theme-icon" aria-hidden="true">☀</span>
+          <span class="track" aria-hidden="true"><span class="thumb"></span></span>
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
       </div>
       <div class="page">{page}</div>
     </div>
+    <script>
+      (function () {{
+        var root = document.documentElement;
+        var btn = document.querySelector(".theme-toggle");
+        var media = window.matchMedia("(prefers-color-scheme: dark)");
+        function isDark() {{
+          var t = root.getAttribute("data-theme");
+          return t ? t === "dark" : media.matches;
+        }}
+        function sync() {{
+          btn.setAttribute("aria-checked", isDark() ? "true" : "false");
+        }}
+        btn.addEventListener("click", function () {{
+          var t = isDark() ? "light" : "dark";
+          root.setAttribute("data-theme", t);
+          try {{ localStorage.setItem("theme", t); }} catch (e) {{}}
+          sync();
+        }});
+        media.addEventListener("change", sync);
+        sync();
+      }})();
+    </script>
   </body>
 </html>

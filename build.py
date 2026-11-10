@@ -39,7 +39,7 @@ def build_website(layout, rootPath):
             print(f"rendering {file}")
             with open(os.path.join(root, file), encoding="utf8") as f:
                 md = f.read()
-            html = markdown.markdown(md, extensions=["fenced_code", "codehilite"])
+            html = markdown.markdown(md, extensions=["fenced_code", "codehilite", "md_in_html"])
             full_page = layout.format(page=html).replace('"/','"'+rootPath+'/')
             html_path = os.path.join(
                 BUILD_DIR,
