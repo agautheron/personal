@@ -32,4 +32,4 @@ Restores and rescues furniture and decorative objects considered obsolete.
 
 ## Oenology
 
-I followed several wine introduction courses with On Veille au Grain (Romain Cipolla): « S'y connaître en vin », « De la vigne au verre » and « L'Afrique et l'Océanie ». They gave me the keys to taste, understand and choose wines from all over the world.
+I followed several wine introduction courses with [On Veille au Grain](https://onveilleaugrain.fr/) (Romain Cipolla): « S'y connaître en vin », « De la vigne au verre » and « L'Afrique et l'Océanie » (see [the course cycles](https://onveilleaugrain.fr/cycles-oenologie)). They gave me the keys to taste, understand and choose wines from all over the world.
