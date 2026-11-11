@@ -2,10 +2,12 @@
 
 Books that I read and liked!
 
-## Novels
+## Novels & Essays
 
 - ⭐️⭐️⭐️ Petit Pays, Gaël Faye
 - ⭐️⭐️⭐️ Jacaranda, Gaël Faye
+- Résister, Salomé Saqué
+- Militer à tout prix
 
 ## Comics (BD)
 
@@ -17,11 +19,6 @@ Books that I read and liked!
 - ⭐️⭐️⭐️ Ailefroide : Altitude 3954, Jean-Marc Rochette and Olivier Bocquet
 - ⭐️⭐️⭐️ Le Loup, Jean-Marc Rochette
 - ⭐️⭐️⭐️ La Dernière Reine, Jean-Marc Rochette
-
-## Society & Activism
-
-- Résister, Salomé Saqué
-- Militer à tout prix
 
 ## Wine
 
