@@ -6,7 +6,7 @@ Books that I read and liked!
 
 - ⭐️⭐️⭐️ Petit Pays, Gaël Faye
 - ⭐️⭐️⭐️ Jacaranda, Gaël Faye
-- Résister, Salomé Saqué
+- ⭐️⭐️⭐️ Résister, Salomé Saqué
 - Militer à tout prix
 
 ## Comics (BD)
