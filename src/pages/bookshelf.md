@@ -8,6 +8,7 @@ Books that I read and liked!
 - ⭐️⭐️⭐️ Les Ignorants, Étienne Davodeau
 - Plouhéran, Isabel del Real
 - Un océan d'amour, Wilfrid Lupano and Grégory Panaccione
+- Le Monde sans fin, Christophe Blain and Jean-Marc Jancovici
 - ⭐️⭐️⭐️ Ailefroide : Altitude 3954, Jean-Marc Rochette and Olivier Bocquet
 - ⭐️⭐️⭐️ Le Loup, Jean-Marc Rochette
 - ⭐️⭐️⭐️ La Dernière Reine, Jean-Marc Rochette
