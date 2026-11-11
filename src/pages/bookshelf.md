@@ -18,6 +18,11 @@ Books that I read and liked!
 - Résister, Salomé Saqué
 - Militer à tout prix
 
+## Novels
+
+- Petit Pays, Gaël Faye
+- Jacaranda, Gaël Faye
+
 ## Wine
 
 <div class="wine" markdown="1">
