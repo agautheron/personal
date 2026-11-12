@@ -1,15 +1,18 @@
-# Bookshelf
+# Shelves
+
+## Bookshelf
 
 Books that I read and liked!
 
-## Novels & Essays
+### Novels & Essays
 
 - ⭐️⭐️⭐️ Petit Pays, Gaël Faye
 - ⭐️⭐️⭐️ Jacaranda, Gaël Faye
 - ⭐️⭐️⭐️ Résister, Salomé Saqué
-- Militer à tout prix
+- ⭐️⭐️ Militer à tout prix
+- ⭐️ Les Mains du miracle, Joseph Kessel
 
-## Comics (BD)
+### Comics (BD)
 
 - ⭐️⭐️ Amour minuscule, Teresa Radice and Stefano Turconi
 - ⭐️⭐️⭐️ Les Ignorants, Étienne Davodeau
@@ -20,7 +23,7 @@ Books that I read and liked!
 - ⭐️⭐️⭐️ Le Loup, Jean-Marc Rochette
 - ⭐️⭐️⭐️ La Dernière Reine, Jean-Marc Rochette
 
-## Wine
+## Wineshelf
 
 <div class="wine" markdown="1">
 <figure class="wine-map-figure">
