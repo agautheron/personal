@@ -64,18 +64,22 @@ The rest of my cellar, by region (it also includes a few bottles already enjoyed
 
 #### Alsace
 
+- Domaine Frères Engel, Alsace « Riesling » 2021 (white) — *on my wishlist*
 - Hospices de Strasbourg, Alsace « Gewurztraminer » 2021 (white)
 - Luc Faller, Alsace 2023 (red)
 
 #### Bordeaux
 
+- Château La Brande, Castillon Côtes de Bordeaux 2019 (red) — *on my wishlist*
 - Château Lugaud, Graves 2022 (red, half bottle)
+- Château Peybrun, Loupiac « Notre Terroir » 2022 (sweet white) — *on my wishlist*
 - Duc de Sauternes, Sauternes 2008 (white)
 
 #### Bourgogne
 
 - Cave de Lugny, Mâcon-Villages « Les Charmes » 2022 (white)
 - Domaine Alain Mathias, Bourgogne Tonnerre « Côte de Grisey » 2020 (white, bottle and magnum)
+- Domaine Jacques Saumaize, Saint-Véran « En Crèches » 2022 (white) — *on my wishlist*
 - La Chablisienne, Chablis « Dame Nature » 2023 (white)
 - La Chablisienne, Petit-Chablis 2023 (white)
 
@@ -86,11 +90,11 @@ The rest of my cellar, by region (it also includes a few bottles already enjoyed
 #### Languedoc-Roussillon
 
 - Domaine Ansignan, Côtes Catalanes « Les Grenadines » 2021 (red)
-- Domaine Les Hautes Terres, Minervois « Louis » 2024 (white) — *on my wishlist*
+- Domaine Les Hautes Terres, Limoux « Louis » 2024 (white) — *on my wishlist*
+- Domaine Pouderoux, Maury « Vendange » 2024 (red) — *on my wishlist*
 - Domaine Robert Vic, Pays d'Oc « Le Petit Pont Réserve » 2022 (rosé)
 - Domaine Robert Vic, Pays d'Oc « Le Petit Pont Réserve » 2022 (white)
 - Ermitage du Pic Saint Loup, Pic-Saint-Loup « Tour de Pierres » 2017 (red)
-- Le Bois d'Arlène, Languedoc « Respire » 2025 (white) — *on my wishlist*
 - Les Terrelles, Pays d'Oc 2021 (white)
 - Velas, Pays d'Oc « Cuvée Prestige » 2021 (red)
 
@@ -99,7 +103,7 @@ The rest of my cellar, by region (it also includes a few bottles already enjoyed
 - Château Jean-Pierre Gaussen, Bandol 2021 (rosé)
 - Domaine Bunan, Bandol 2018 (rosé)
 - Domaine Gaussen, Bandol 2023 (rosé)
-- Henry Milan, Alpilles « Le Vallon » 2025 (red) — *on my wishlist*
+- Domaine Henri Milan, Vin de France « Le Vallon » 2023 (red) — *on my wishlist*
 - Jean-Pierre Gaussen, Var 2023 (white)
 - La Cadiérenne, Bandol « Grande Tradition » 2023 (rosé)
 - La Cadiérenne, Côtes-de-Provence 2023 (rosé)
@@ -118,25 +122,45 @@ The rest of my cellar, by region (it also includes a few bottles already enjoyed
 
 #### Vallée de la Loire
 
+- Domaine Bonnigal Bodet, Touraine 2025 (white) — *on my wishlist*
+- Domaine Bonnigal Bodet, Touraine-Amboise « Génésis » 2025 (red) — *on my wishlist*
+- Domaine des Bouquerrie, Chinon « Vieilles Vignes » 2019 (red)
 - Domaine Des Frères « Chenin » 2024 (white)
 - Domaine Des Frères, Anjou « Le Pérou » 2024 (red)
 - Domaine Des Frères, Chinon « Les Pucelles » 2024 (red)
-- Domaine des Bouquerrie, Chinon « Vieilles Vignes » 2019 (red)
+- Domaine Philippe Gilbert, Menetou-Salon 2023 (white) — *on my wishlist*
+- Domaine Philippe Tessier, Cheverny « Point Nommé » 2022 (red) — *on my wishlist*
+- Domaine Philippe Tessier, Cour-Cheverny « Porte Dorée » 2021 (white) — *on my wishlist*
+- François-Xavier Barc, Touraine « Expression » 2022 (white) — *on my wishlist*
 
 #### Vallée du Rhône
 
+- Château Bois d'Arlène, Vacqueyras « Respire » 2025 (white) — *on my wishlist*
+- Domaine de Piéblanc, Vaucluse « Petite Abeille » 2023 (white) — *on my wishlist*
+- Domaine Garon, Collines Rhodaniennes « Les Grandes Parcelles » 2022 (red) — *on my wishlist*
 - Domaine Martin, Rasteau 2022 (red, magnum)
+- Domaine Philippe Viret, Vin de France « Horus » (orange) — *on my wishlist*
 - E. Guigal, Saint-Joseph 2016 (red)
+- Famille De Boel, Côtes-du-Rhône Villages Massif d'Uchaux « Aleph » 2023 (red) — *on my wishlist*
 - Guigal, Crozes-Hermitage 2021 (red)
 - Les Vignerons de Valléon, Côtes-du-Rhône « Terroir de la Lance » 2025 (rosé)
 - Valleon « Sans Pantalon Ni Sulfites » 2025 (red)
 - Valleon, Drôme 2024 (white)
+
+#### Vin de France
+
+- Domaine de l'Accent, Vin de France « Una Notte » 2023 (red) — *on my wishlist*
 
 ### Around the world
 
 #### Australia
 
 - Hentley Farm, South Australia « Villain & Vixen » 2022 (red)
+- Two Hands Wines, Barossa Valley « Brave Faces » 2022 (red) — *on my wishlist*
+
+#### China
+
+- Château Changyu Moser XV, Ningxia « Cabernet Sauvignon » 2021 (red) — *on my wishlist*
 
 #### Hungary
 
@@ -147,9 +171,15 @@ The rest of my cellar, by region (it also includes a few bottles already enjoyed
 - A Trincea, Campania « Roccese Bianco » 2022 (white)
 - A Trincea, Langhe « Roccese Rosso » 2022 (red)
 
+#### New Zealand
+
+- Clos Henri Vineyard, Marlborough « Otira Single Vineyard » 2024 (white) — *on my wishlist*
+
 #### South Africa
 
+- Badenhorst Family Wines, Swartland « Secateurs White » 2024 (white) — *on my wishlist*
 - Cape of Good Hope, Swartland « Riebeeksrivier Chenin Blanc » 2025 (white)
+- Kanonkop, Stellenbosch « Kadette Cape Blend » 2020 (red) — *on my wishlist*
 
 #### Spain
 
