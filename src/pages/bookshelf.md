@@ -90,6 +90,7 @@ The rest of my cellar, by region (it also includes a few bottles already enjoyed
 #### Languedoc-Roussillon
 
 - Domaine Ansignan, Côtes Catalanes « Les Grenadines » 2021 (red)
+- Domaine de l'Accent, Vin de France « Una Notte » 2023 (red) — *on my wishlist*
 - Domaine Les Hautes Terres, Limoux « Louis » 2024 (white) — *on my wishlist*
 - Domaine Pouderoux, Maury « Vendange » 2024 (red) — *on my wishlist*
 - Domaine Robert Vic, Pays d'Oc « Le Petit Pont Réserve » 2022 (rosé)
@@ -146,10 +147,6 @@ The rest of my cellar, by region (it also includes a few bottles already enjoyed
 - Les Vignerons de Valléon, Côtes-du-Rhône « Terroir de la Lance » 2025 (rosé)
 - Valleon « Sans Pantalon Ni Sulfites » 2025 (red)
 - Valleon, Drôme 2024 (white)
-
-#### Vin de France
-
-- Domaine de l'Accent, Vin de France « Una Notte » 2023 (red) — *on my wishlist*
 
 ### Around the world
 
