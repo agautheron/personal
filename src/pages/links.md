@@ -30,6 +30,10 @@ A collaborative project that explores, documents and shares open-source low-tech
 
 Restores and rescues furniture and decorative objects considered obsolete.
 
+### [L'ArchiPelle](https://larchipelle.fr/)
+
+A media about autonomy, permaculture and know-how, with video reports and articles.
+
 ## Oenology
 
 I followed several wine introduction courses with [On Veille au Grain](https://onveilleaugrain.fr/) (Romain Cipolla): « S'y connaître en vin », « De la vigne au verre » and « L'Afrique et l'Océanie » (see [the course cycles](https://onveilleaugrain.fr/cycles-oenologie)). They gave me the keys to taste, understand and choose wines from all over the world.
