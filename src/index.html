@@ -63,6 +63,56 @@
         else if (media.addListener) media.addListener(sync);
         sync();
       }})();
+      (function () {{
+        var bar = document.querySelector(".profile-filter");
+        if (!bar) return;
+        var items = Array.prototype.slice.call(document.querySelectorAll(".page li")).filter(function (li) {{
+          return li.querySelector(".profile");
+        }});
+        function codes(li) {{
+          var c = li.querySelector(".profile").className;
+          if (c.indexOf("p-vr") >= 0) return ["v", "r"];
+          var m = c.match(/p-([vrd])/);
+          return m ? [m[1]] : [];
+        }}
+        var buttons = bar.querySelectorAll("button");
+        Array.prototype.forEach.call(buttons, function (b) {{
+          var p = b.getAttribute("data-profile");
+          var n = items.filter(function (li) {{ return p === "all" || codes(li).indexOf(p) >= 0; }}).length;
+          var span = document.createElement("span");
+          span.className = "count";
+          span.textContent = "(" + n + ")";
+          b.appendChild(span);
+        }});
+        function apply(p) {{
+          items.forEach(function (li) {{
+            li.hidden = !(p === "all" || codes(li).indexOf(p) >= 0);
+          }});
+          var lists = [];
+          items.forEach(function (li) {{ if (lists.indexOf(li.parentNode) < 0) lists.push(li.parentNode); }});
+          lists.forEach(function (ul) {{
+            var any = ul.querySelector("li:not([hidden])") !== null;
+            ul.hidden = !any;
+            var h = ul.previousElementSibling;
+            if (h && (h.tagName === "H4" || (h.tagName === "P" && /:\s*$/.test(h.textContent)))) h.hidden = !any;
+          }});
+          Array.prototype.forEach.call(document.querySelectorAll(".page h3"), function (h3) {{
+            var el = h3.nextElementSibling, any = false, wine = false;
+            while (el && el.tagName !== "H3" && el.tagName !== "H2") {{
+              if (el.tagName === "UL" && el.querySelector(".profile")) {{ wine = true; if (!el.hidden) any = true; }}
+              el = el.nextElementSibling;
+            }}
+            if (wine) h3.hidden = !any;
+          }});
+          Array.prototype.forEach.call(buttons, function (b) {{
+            b.setAttribute("aria-pressed", b.getAttribute("data-profile") === p ? "true" : "false");
+          }});
+        }}
+        bar.addEventListener("click", function (e) {{
+          var b = e.target.closest ? e.target.closest("button") : null;
+          if (b) apply(b.getAttribute("data-profile"));
+        }});
+      }})();
     </script>
   </body>
 </html>
