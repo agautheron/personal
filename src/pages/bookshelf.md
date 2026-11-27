@@ -25,6 +25,15 @@ Books that I read and liked!
 
 ## Wineshelf
 
+Each wine has a profile, as taught in my [On Veille au Grain](https://onveilleaugrain.fr/) courses: <span class="profile p-v">V</span> *vif* (fresh, lively), <span class="profile p-r">R</span> *rond* (round, generous) or <span class="profile p-d">D</span> *doux* (sweet).
+
+<div class="profile-filter" role="group" aria-label="Filter wines by profile">
+<button type="button" data-profile="all" aria-pressed="true">All</button>
+<button type="button" data-profile="v" aria-pressed="false"><span class="profile p-v">V</span> Vif</button>
+<button type="button" data-profile="r" aria-pressed="false"><span class="profile p-r">R</span> Rond</button>
+<button type="button" data-profile="d" aria-pressed="false"><span class="profile p-d">D</span> Doux</button>
+</div>
+
 <div class="wine" markdown="1">
 <figure class="wine-map-figure">
 <svg class="wine-map" viewBox="0 0 320 310" role="img" aria-labelledby="wine-map-title">
@@ -51,12 +60,12 @@ Books that I read and liked!
 
 Some of the best bottles in my cellar:
 
-- Château Sociando-Mallet 1995, Haut-Médoc (Bordeaux), magnum
-- Domaine Rapet Père et Fils, Pernand-Vergelesses 1er Cru « Île des Vergelesses » 1995 (Bourgogne), magnum
-- Maison Chandesais, « Clos Roussots » 1er Cru 2010 (Bourgogne)
-- Domaine Des Frères, Chinon « Les Chaîneaux » 2022, white (Vallée de la Loire)
-- Ravinelle Frères, Pic-Saint-Loup « Héritage du Pic Saint Loup » 2020 (Languedoc), magnum
-- Ermitage du Pic Saint Loup, Pic-Saint-Loup « Sainte Agnès » (Languedoc)
+- <span class="profile p-r" title="Rond">R</span> Château Sociando-Mallet 1995, Haut-Médoc (Bordeaux), magnum
+- <span class="profile p-r" title="Rond">R</span> Domaine Rapet Père et Fils, Pernand-Vergelesses 1er Cru « Île des Vergelesses » 1995 (Bourgogne), magnum
+- <span class="profile p-v" title="Vif">V</span> Maison Chandesais, « Clos Roussots » 1er Cru 2010 (Bourgogne)
+- <span class="profile p-r" title="Rond">R</span> Domaine Des Frères, Chinon « Les Chaîneaux » 2022, white (Vallée de la Loire)
+- <span class="profile p-r" title="Rond">R</span> Ravinelle Frères, Pic-Saint-Loup « Héritage du Pic Saint Loup » 2020 (Languedoc), magnum
+- <span class="profile p-r" title="Rond">R</span> Ermitage du Pic Saint Loup, Pic-Saint-Loup « Sainte Agnès » (Languedoc)
 
 </div>
 </div>
@@ -67,120 +76,120 @@ The rest of my cellar, by region (it also includes a few bottles already enjoyed
 
 #### Alsace
 
-- Domaine Frères Engel, Alsace « Riesling » 2021 (white) — *on my wishlist*
-- Hospices de Strasbourg, Alsace « Gewurztraminer » 2021 (white)
-- Luc Faller, Alsace 2023 (red)
+- <span class="profile p-v" title="Vif">V</span> Domaine Frères Engel, Alsace « Riesling » 2021 (white) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Hospices de Strasbourg, Alsace « Gewurztraminer » 2021 (white)
+- <span class="profile p-v" title="Vif">V</span> Luc Faller, Alsace 2023 (red)
 
 #### Bordeaux
 
-- Château La Brande, Castillon Côtes de Bordeaux 2019 (red) — *on my wishlist*
-- Château Lugaud, Graves 2022 (red, half bottle)
-- Château Peybrun, Loupiac « Notre Terroir » 2022 (sweet white) — *on my wishlist*
-- Duc de Sauternes, Sauternes 2008 (white)
+- <span class="profile p-r" title="Rond">R</span> Château La Brande, Castillon Côtes de Bordeaux 2019 (red) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Château Lugaud, Graves 2022 (red, half bottle)
+- <span class="profile p-d" title="Doux">D</span> Château Peybrun, Loupiac « Notre Terroir » 2022 (sweet white) — *on my wishlist*
+- <span class="profile p-d" title="Doux">D</span> Duc de Sauternes, Sauternes 2008 (white)
 
 #### Bourgogne
 
-- Cave de Lugny, Mâcon-Villages « Les Charmes » 2022 (white)
-- Domaine Alain Mathias, Bourgogne Tonnerre « Côte de Grisey » 2020 (white, bottle and magnum)
-- Domaine Jacques Saumaize, Saint-Véran « En Crèches » 2022 (white) — *on my wishlist*
-- La Chablisienne, Chablis « Dame Nature » 2023 (white)
-- La Chablisienne, Petit-Chablis 2023 (white)
+- <span class="profile p-r" title="Rond">R</span> Cave de Lugny, Mâcon-Villages « Les Charmes » 2022 (white)
+- <span class="profile p-v" title="Vif">V</span> Domaine Alain Mathias, Bourgogne Tonnerre « Côte de Grisey » 2020 (white, bottle and magnum)
+- <span class="profile p-v" title="Vif">V</span> Domaine Jacques Saumaize, Saint-Véran « En Crèches » 2022 (white) — *on my wishlist*
+- <span class="profile p-v" title="Vif">V</span> La Chablisienne, Chablis « Dame Nature » 2023 (white)
+- <span class="profile p-v" title="Vif">V</span> La Chablisienne, Petit-Chablis 2023 (white)
 
 #### Corse
 
-- Clos Calviani, Corse 2022 (white)
+- <span class="profile p-r" title="Rond">R</span> Clos Calviani, Corse 2022 (white)
 
 #### Languedoc-Roussillon
 
-- Domaine Ansignan, Côtes Catalanes « Les Grenadines » 2021 (red)
-- Domaine de l'Accent, Vin de France « Una Notte » 2023 (red) — *on my wishlist*
-- Domaine Les Hautes Terres, Limoux « Louis » 2024 (white) — *on my wishlist*
-- Domaine Pouderoux, Maury « Vendange » 2024 (red) — *on my wishlist*
-- Domaine Robert Vic, Pays d'Oc « Le Petit Pont Réserve » 2022 (rosé)
-- Domaine Robert Vic, Pays d'Oc « Le Petit Pont Réserve » 2022 (white)
-- Ermitage du Pic Saint Loup, Pic-Saint-Loup « Tour de Pierres » 2017 (red)
-- Les Terrelles, Pays d'Oc 2021 (white)
-- Velas, Pays d'Oc « Cuvée Prestige » 2021 (red)
+- <span class="profile p-r" title="Rond">R</span> Domaine Ansignan, Côtes Catalanes « Les Grenadines » 2021 (red)
+- <span class="profile p-v" title="Vif">V</span> Domaine de l'Accent, Vin de France « Una Notte » 2023 (red) — *on my wishlist*
+- <span class="profile p-vr" title="Vif / Rond">V/R</span> Domaine Les Hautes Terres, Limoux « Louis » 2024 (white) — *on my wishlist*
+- <span class="profile p-d" title="Doux">D</span> Domaine Pouderoux, Maury « Vendange » 2024 (red) — *on my wishlist*
+- <span class="profile p-v" title="Vif">V</span> Domaine Robert Vic, Pays d'Oc « Le Petit Pont Réserve » 2022 (rosé)
+- <span class="profile p-r" title="Rond">R</span> Domaine Robert Vic, Pays d'Oc « Le Petit Pont Réserve » 2022 (white)
+- <span class="profile p-r" title="Rond">R</span> Ermitage du Pic Saint Loup, Pic-Saint-Loup « Tour de Pierres » 2017 (red)
+- <span class="profile p-r" title="Rond">R</span> Les Terrelles, Pays d'Oc 2021 (white)
+- <span class="profile p-r" title="Rond">R</span> Velas, Pays d'Oc « Cuvée Prestige » 2021 (red)
 
 #### Provence
 
-- Château Jean-Pierre Gaussen, Bandol 2021 (rosé)
-- Domaine Bunan, Bandol 2018 (rosé)
-- Domaine Gaussen, Bandol 2023 (rosé)
-- Domaine Henri Milan, Vin de France « Le Vallon » 2023 (red) — *on my wishlist*
-- Jean-Pierre Gaussen, Var 2023 (white)
-- La Cadiérenne, Bandol « Grande Tradition » 2023 (rosé)
-- La Cadiérenne, Côtes-de-Provence 2023 (rosé)
+- <span class="profile p-r" title="Rond">R</span> Château Jean-Pierre Gaussen, Bandol 2021 (rosé)
+- <span class="profile p-r" title="Rond">R</span> Domaine Bunan, Bandol 2018 (rosé)
+- <span class="profile p-r" title="Rond">R</span> Domaine Gaussen, Bandol 2023 (rosé)
+- <span class="profile p-v" title="Vif">V</span> Domaine Henri Milan, Vin de France « Le Vallon » 2023 (red) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Jean-Pierre Gaussen, Var 2023 (white)
+- <span class="profile p-r" title="Rond">R</span> La Cadiérenne, Bandol « Grande Tradition » 2023 (rosé)
+- <span class="profile p-v" title="Vif">V</span> La Cadiérenne, Côtes-de-Provence 2023 (rosé)
 
 #### Savoie
 
-- Domaine Saint Romain, Mondeuse « Sur le versant » 2023 (red)
-- Domaine Saint Romain, Roussette-de-Savoie 2022 (white)
-- Les Ateliers de Maurienne, Savoie « Moraine Blanche » 2024 (white)
+- <span class="profile p-v" title="Vif">V</span> Domaine Saint Romain, Mondeuse « Sur le versant » 2023 (red)
+- <span class="profile p-v" title="Vif">V</span> Domaine Saint Romain, Roussette-de-Savoie 2022 (white)
+- <span class="profile p-v" title="Vif">V</span> Les Ateliers de Maurienne, Savoie « Moraine Blanche » 2024 (white)
 
 #### Sud-Ouest
 
-- Château Combel-La-Serre, Cahors (red)
-- Château Combel-La-Serre, Cahors « Un cerisier, des pierres et des cochons » 2023 (red) — *on my wishlist*
-- Château Haute Fonrousse, Côtes-de-Bergerac 2020 (white)
+- <span class="profile p-v" title="Vif">V</span> Château Combel-La-Serre, Cahors (red)
+- <span class="profile p-v" title="Vif">V</span> Château Combel-La-Serre, Cahors « Un cerisier, des pierres et des cochons » 2023 (red) — *on my wishlist*
+- <span class="profile p-d" title="Doux">D</span> Château Haute Fonrousse, Côtes-de-Bergerac 2020 (white)
 
 #### Vallée de la Loire
 
-- Domaine Bonnigal Bodet, Touraine 2025 (white) — *on my wishlist*
-- Domaine Bonnigal Bodet, Touraine-Amboise « Génésis » 2025 (red) — *on my wishlist*
-- Domaine des Bouquerrie, Chinon « Vieilles Vignes » 2019 (red)
-- Domaine Des Frères « Chenin » 2024 (white)
-- Domaine Des Frères, Anjou « Le Pérou » 2024 (red)
-- Domaine Des Frères, Chinon « Les Pucelles » 2024 (red)
-- Domaine Philippe Gilbert, Menetou-Salon 2023 (white) — *on my wishlist*
-- Domaine Philippe Tessier, Cheverny « Point Nommé » 2022 (red) — *on my wishlist*
-- Domaine Philippe Tessier, Cour-Cheverny « Porte Dorée » 2021 (white) — *on my wishlist*
-- François-Xavier Barc, Touraine « Expression » 2022 (white) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Domaine Bonnigal Bodet, Touraine 2025 (white) — *on my wishlist*
+- <span class="profile p-v" title="Vif">V</span> Domaine Bonnigal Bodet, Touraine-Amboise « Génésis » 2025 (red) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Domaine des Bouquerrie, Chinon « Vieilles Vignes » 2019 (red)
+- <span class="profile p-v" title="Vif">V</span> Domaine Des Frères « Chenin » 2024 (white)
+- <span class="profile p-v" title="Vif">V</span> Domaine Des Frères, Anjou « Le Pérou » 2024 (red)
+- <span class="profile p-v" title="Vif">V</span> Domaine Des Frères, Chinon « Les Pucelles » 2024 (red)
+- <span class="profile p-v" title="Vif">V</span> Domaine Philippe Gilbert, Menetou-Salon 2023 (white) — *on my wishlist*
+- <span class="profile p-v" title="Vif">V</span> Domaine Philippe Tessier, Cheverny « Point Nommé » 2022 (red) — *on my wishlist*
+- <span class="profile p-v" title="Vif">V</span> Domaine Philippe Tessier, Cour-Cheverny « Porte Dorée » 2021 (white) — *on my wishlist*
+- <span class="profile p-v" title="Vif">V</span> François-Xavier Barc, Touraine « Expression » 2022 (white) — *on my wishlist*
 
 #### Vallée du Rhône
 
-- Château Bois d'Arlène, Vacqueyras « Respire » 2025 (white) — *on my wishlist*
-- Domaine de Piéblanc, Vaucluse « Petite Abeille » 2023 (white) — *on my wishlist*
-- Domaine Garon, Collines Rhodaniennes « Les Grandes Parcelles » 2022 (red) — *on my wishlist*
-- Domaine Martin, Rasteau 2022 (red, magnum)
-- Domaine Philippe Viret, Vin de France « Horus » (orange) — *on my wishlist*
-- E. Guigal, Saint-Joseph 2016 (red)
-- Famille De Boel, Côtes-du-Rhône Villages Massif d'Uchaux « Aleph » 2023 (red) — *on my wishlist*
-- Guigal, Crozes-Hermitage 2021 (red)
-- Les Vignerons de Valléon, Côtes-du-Rhône « Terroir de la Lance » 2025 (rosé)
-- Valleon « Sans Pantalon Ni Sulfites » 2025 (red)
-- Valleon, Drôme 2024 (white)
+- <span class="profile p-r" title="Rond">R</span> Château Bois d'Arlène, Vacqueyras « Respire » 2025 (white) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Domaine de Piéblanc, Vaucluse « Petite Abeille » 2023 (white) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Domaine Garon, Collines Rhodaniennes « Les Grandes Parcelles » 2022 (red) — *on my wishlist*
+- <span class="profile p-d" title="Doux">D</span> Domaine Martin, Rasteau 2022 (red, magnum)
+- <span class="profile p-r" title="Rond">R</span> Domaine Philippe Viret, Vin de France « Horus » (orange) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> E. Guigal, Saint-Joseph 2016 (red)
+- <span class="profile p-r" title="Rond">R</span> Famille De Boel, Côtes-du-Rhône Villages Massif d'Uchaux « Aleph » 2023 (red) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Guigal, Crozes-Hermitage 2021 (red)
+- <span class="profile p-v" title="Vif">V</span> Les Vignerons de Valléon, Côtes-du-Rhône « Terroir de la Lance » 2025 (rosé)
+- <span class="profile p-v" title="Vif">V</span> Valleon « Sans Pantalon Ni Sulfites » 2025 (red)
+- <span class="profile p-v" title="Vif">V</span> Valleon, Drôme 2024 (white)
 
 ### Around the world
 
 #### Australia
 
-- Hentley Farm, South Australia « Villain & Vixen » 2022 (red)
-- Two Hands Wines, Barossa Valley « Brave Faces » 2022 (red) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Hentley Farm, South Australia « Villain & Vixen » 2022 (red)
+- <span class="profile p-r" title="Rond">R</span> Two Hands Wines, Barossa Valley « Brave Faces » 2022 (red) — *on my wishlist*
 
 #### China
 
-- Château Changyu Moser XV, Ningxia « Cabernet Sauvignon » 2021 (red) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Château Changyu Moser XV, Ningxia « Cabernet Sauvignon » 2021 (red) — *on my wishlist*
 
 #### Hungary
 
-- Château Imperial Tokaj, Tokaj « Bio » 2018 (white)
+- <span class="profile p-v" title="Vif">V</span> Château Imperial Tokaj, Tokaj « Bio » 2018 (white)
 
 #### Italy
 
-- A Trincea, Campania « Roccese Bianco » 2022 (white)
-- A Trincea, Langhe « Roccese Rosso » 2022 (red)
+- <span class="profile p-v" title="Vif">V</span> A Trincea, Campania « Roccese Bianco » 2022 (white)
+- <span class="profile p-v" title="Vif">V</span> A Trincea, Langhe « Roccese Rosso » 2022 (red)
 
 #### New Zealand
 
-- Clos Henri Vineyard, Marlborough « Otira Single Vineyard » 2024 (white) — *on my wishlist*
+- <span class="profile p-v" title="Vif">V</span> Clos Henri Vineyard, Marlborough « Otira Single Vineyard » 2024 (white) — *on my wishlist*
 
 #### South Africa
 
-- Badenhorst Family Wines, Swartland « Secateurs White » 2024 (white) — *on my wishlist*
-- Cape of Good Hope, Swartland « Riebeeksrivier Chenin Blanc » 2025 (white)
-- Kanonkop, Stellenbosch « Kadette Cape Blend » 2020 (red) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Badenhorst Family Wines, Swartland « Secateurs White » 2024 (white) — *on my wishlist*
+- <span class="profile p-r" title="Rond">R</span> Cape of Good Hope, Swartland « Riebeeksrivier Chenin Blanc » 2025 (white)
+- <span class="profile p-r" title="Rond">R</span> Kanonkop, Stellenbosch « Kadette Cape Blend » 2020 (red) — *on my wishlist*
 
 #### Spain
 
-- González Byass, Jerez « Alfonso » (sherry)
+- <span class="profile p-r" title="Rond">R</span> González Byass, Jerez « Alfonso » (sherry)
